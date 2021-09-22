@@ -113,6 +113,20 @@ main section h1 {
 main section div {
     float: left;
 }
+
+.footer-main h1 {
+    padding: 20px;
+    background-image: url(img/stars.svg);
+    background-size: cover;
+}
+
+.footer-main button {
+    border: none;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(142, 150, 255);
+    padding: 10px;
+}
 /* /Corpo della pagina */
 
 footer {
