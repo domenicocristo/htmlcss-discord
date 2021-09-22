@@ -152,6 +152,7 @@ footer {
 }
 
 footer div {
+    display: inline-block;
     padding-top: 100px;
     padding-left: 200px;
 }
@@ -179,6 +180,19 @@ footer div h1 {
 
 #social i {
     padding-right: 20px;
+    padding-top: 10px;
+}
+
+footer h3 {
+    color: rgb(142, 150, 255);
+}
+
+footer ul {
+    list-style-type: none;
+    color: white;
+}
+
+footer li {
     padding-top: 10px;
 }
 /* /Liste utili */
