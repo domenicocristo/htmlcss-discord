@@ -20,7 +20,7 @@ nav {
 }
 
 nav img {
-    padding-top: 60px;
+    padding-top: 50px;
     padding-right: 200px;
 }
 
@@ -86,7 +86,6 @@ nav button {
 
 /* Corpo della pagina */
 .p-left {
-    height: 60vh;
     width: 100vw;
     padding-top: 100px;
     padding-left: 100px;
@@ -96,7 +95,6 @@ nav button {
 
 .p-right {
     background-color: rgb(230, 230, 230);
-    height: 60vh;
     width: 100vw;
     padding-top: 100px;
     padding-left: 100px;
@@ -112,6 +110,16 @@ nav button {
     width: 20vw;
 }
 
+.p-main-center {
+    width: 70vw;
+    text-align: center;
+    padding-left: 10vw; 
+}
+
+.img-main-center {
+    padding-left: 10vw; 
+}
+
 main section h1 {
     font-size: 40px;
     padding-top: 25px;
@@ -123,9 +131,8 @@ main section div {
 }
 
 .footer-main h1 {
-    padding: 20px;
-    background-image: url(img/stars.svg);
-    background-size: cover;
+    padding-bottom: 20px;
+    padding-left: 20vw;
 }
 
 .footer-main button {
@@ -134,18 +141,17 @@ main section div {
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(142, 150, 255);
     padding: 10px;
+    margin-left: 35vw;
 }
 /* /Corpo della pagina */
 
+/* Liste utili */
 footer {
     background-color: #23272a;
     height: 70vh;
 }
 
 footer div h1 {
-    color: rgb(142, 150, 255);;
+    color: rgb(142, 150, 255);
 }
-
-footer div img {
-
-}
+/* /Liste utili */
