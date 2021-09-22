@@ -2,11 +2,77 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Whitney','Neue Helvetica',Helvetica,Arial,sans-serif;
 }
 
 header {
     background-color: #698ef0;
-    height: 70vh;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+}
+
+nav {
+    width: 80vw;
+    text-align: center;
+}
+
+nav img {
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+nav button {
+    background-color: #698ef0;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+#button-accedi {
+    color: black;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#jumbotron {
+    width: 67vw;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 30vw;
+}
+
+#jumbotron button {
+    border: none;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.button-white {
+    color: black;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button-black {
+    color: white;
+    background-color: rgb(51, 51, 51);
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 main section {
