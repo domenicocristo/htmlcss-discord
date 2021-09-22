@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #698ef0;
+    height: 70vh;
+}
+
+main section {
+    height: 70vh;
+}
+
+footer {
+    background-color: #23272a;
+    height: 70vh;
+}
