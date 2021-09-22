@@ -5,6 +5,7 @@
     font-family: 'Whitney','Neue Helvetica',Helvetica,Arial,sans-serif;
 }
 
+/* Intestazione */
 header {
     background-color: #698ef0;
     background-image: url(img/jumbo.png);
@@ -74,10 +75,45 @@ nav button {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+/* /Intestazione */
 
-main section {
-    height: 70vh;
+/* Corpo della pagina */
+.p-left {
+    height: 60vh;
+    width: 100vw;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 90vh;
 }
+
+.p-right {
+    background-color: rgb(230, 230, 230);
+    height: 60vh;
+    width: 100vw;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 90vh;
+}
+
+.img-main {
+    width: 50vw;
+}
+
+.p-main {
+    width: 20vw;
+}
+
+main section h1 {
+    font-size: 40px;
+    padding-top: 25px;
+}
+
+main section div {
+    float: left;
+}
+/* /Corpo della pagina */
 
 footer {
     background-color: #23272a;
